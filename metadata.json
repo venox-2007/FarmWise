@@ -1,0 +1,9 @@
+{
+  "name": "FarmWise",
+  "description": "AI-powered agricultural assistant for Maharashtra farmers using Gemini 3.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
