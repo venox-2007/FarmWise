@@ -5,7 +5,7 @@
 
 ## 🚀 Key Features
 
-### 1. 🔴 FarmWise Live (New!)
+### 1. 🔴 FarmWise Live
 A real-time, multimodal conversational experience.
 *   **"Eyes on the Field"**: Streams live video from the farmer's camera to Gemini. Farmers can point at crops and ask, "Is this leaf yellowing due to lack of water or pests?"
 *   **Voice-First**: Hands-free interaction. Farmers speak naturally in their local language, and the AI responds with a professional Indian accent.
@@ -68,27 +68,6 @@ We use advanced System Instructions to enforce a specific persona:
     ```
     *Note: To test the Camera/Microphone on mobile, you must serve the app over HTTPS or use `localhost`.*
 
-## 📱 Demo Script (Hackathon Flow)
-
-**0:00 - 0:45: The "FarmWise Live" Experience**
-*   *Action*: Open the app, click the pulsing "Live AI" microphone.
-*   *Visual*: The camera opens (UI looks like a video call).
-*   *User*: Points phone at a plant. Zooms in. "Hey, look at these spots. Is this dangerous?"
-*   *AI (Voice)*: "I see small dark spots with yellow halos. That looks like Early Blight. Since you are in Pune and humidity is high, you should apply a copper-based fungicide immediately."
-
-**0:45 - 1:30: Deep Diagnosis**
-*   *Action*: Switch to "Camera" tab. Take a high-res photo.
-*   *Visual*: "Analyzing..." animation.
-*   *Result*: A structured card appears showing "Early Blight (लवकर करपा)" with 95% confidence and a step-by-step cure.
-
-**1:30 - 2:15: Market & Commerce**
-*   *Action*: Go to "Mandi". Show prices for "Onion" in "Nashik".
-*   *Action*: Switch role to "Consumer". Add "Fresh Mangoes" to cart and Checkout.
-
-**2:15 - 3:00: Multilingual Capability**
-*   *Action*: Open Menu -> Change Language to **Marathi** or **Punjabi**.
-*   *Result*: The entire UI, including the Live AI persona, instantly switches language context.
-
 ## ☁️ Deployment
 
 *   **Vercel/Netlify**: Connect repo, set `API_KEY` in environment variables.
@@ -102,4 +81,3 @@ We use advanced System Instructions to enforce a specific persona:
     ```
 
 ---
-*Built for the Gemini 3 Hackathon*
